@@ -141,12 +141,7 @@ Obrigado por jogar o Jogo das Cadeiras Concorrente!
    - Os jogadores eliminados são anunciados de forma clara após cada rodada.
 4. **Vencedor**: Quando resta apenas um jogador, ele é anunciado como o vencedor do jogo.
 
-### Detalhes de Implementação
-
-- **Variáveis de Condição** são usadas para fazer com que as threads dos jogadores esperem até que a música pare, momento em que todas tentam ocupar uma cadeira.
-- **Semáforo Contador** inicia com valor `n - 1` e controla quantos jogadores podem ocupar uma cadeira. As threads que não conseguem entrar no semáforo ficam bloqueadas.
-- **Thread Coordenadora** é r
-
+---
 
 ## Instruções de Uso
 
